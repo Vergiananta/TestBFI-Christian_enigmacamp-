@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class CityRepository {
 
    @Test
-    void SearchAlbum() throws IOException {
+    void SearchCity() throws IOException {
        CityRepositoryImpl cityrepository = new CityRepositoryImpl();
        HashMap<String, String> tests = new HashMap<String, String>();
 
